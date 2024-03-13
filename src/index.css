@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.xxl-img {
+  --tw-scale-x: 2;
+  --tw-scale-y: 2 ;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.my-border {
+  padding-bottom: 1rem;
+    background-image: linear-gradient(to right, rgba(0, 255, 0, 0), #00FF00, rgba(0, 255, 0, 0));
+    background-position: bottom;
+    background-size: 40% 5px; /* Sesuaikan dengan ketebalan border yang diinginkan */
+    background-repeat: no-repeat;
+}
+
+.custom-scrollbar {
+  scrollbar-width: none;
+}
